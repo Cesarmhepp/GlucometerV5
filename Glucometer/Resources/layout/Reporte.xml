@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity= "center_horizontal"
+    android:layout_height="match_parent"
+    android:background="@drawable/boder">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Grafico Niveles Glucosa"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="3 Dias"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn3" />
+        <Button
+            android:text="7 Dias"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn7" />
+        <Button
+            android:text="15 Dias"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn15" />
+        <Button
+            android:text="30 Dias"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn30" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity= "center_vertical"
+        android:paddingTop="5dp">
+
+        <microcharts.droid.ChartView
+            android:id="@+id/chartView"
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="160.0dp"
+            android:layout_marginTop="13.0dp" />
+
+        <microcharts.droid.ChartView
+            android:padding="30dp"
+            android:id="@+id/chartView2"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="13.0dp" />
+        <microcharts.droid.ChartView
+            android:padding="30dp"
+            android:id="@+id/chartView3"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="13.0dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

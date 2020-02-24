@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ListaTipoPrevisiones">Click Me</string>
+  <string name="ApplicationName">DDL</string>
+
+  <string-array name="Dropdown_arraysTipoPrev">
+    <item value="1">Isapre</item>
+    <item value="2">Fonasa</item>
+  </string-array>
+
+</resources>

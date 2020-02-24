@@ -1,0 +1,430 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boder">
+
+        <TextView
+            android:text="Modificacion Cuenta"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:gravity="center"
+            android:id="@+id/textView1" />
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60.0dp"
+            android:id="@+id/tableLayout1"
+            android:layout_marginRight="16.0dp"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginTop="7.0dp">
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp">
+                <TextView
+                    android:text="Nombre"
+                    android:layout_marginLeft="14.0dp"
+                    android:layout_marginRight="5.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="text"
+                    android:gravity="center"
+                    android:layout_width="220.5dp"
+                    android:layout_height="31.0dp"
+                    android:layout_marginRight="23.5dp"
+                    android:id="@+id/txtNombre" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60.0dp"
+            android:id="@+id/tableLayout1"
+            android:layout_marginRight="16.0dp"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginTop="7.0dp">
+
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp">
+                <TextView
+                    android:text="Apellido"
+                    android:layout_marginRight="5.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginLeft="12.0dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="text"
+                    android:gravity="center"
+                    android:layout_width="220.5dp"
+                    android:layout_height="31.0dp"
+                    android:id="@+id/txtApellido"
+                    android:layout_marginRight="23.0dp" />
+            </TableRow>
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60.0dp"
+            android:id="@+id/tableLayout1"
+            android:layout_marginRight="16.0dp"
+            android:layout_marginLeft="16.5dp">
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp">
+                <TextView
+                    android:text="Rut"
+                    android:layout_marginLeft="14.0dp"
+                    android:layout_marginRight="5.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="text|number"
+                    android:hint="Sin puntos ni guion"
+                    android:layout_width="225.5dp"
+                    android:layout_height="31.0dp"
+                    android:layout_marginHorizontal="30.5dp"
+                    android:gravity="center"
+                    android:id="@+id/txtRut"
+                    android:layout_marginLeft="35.5dp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout1"
+            android:layout_marginRight="16.0dp"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginTop="7.0dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Región"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerRegion"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Ciudad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerCiudad"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Comuna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerComuna"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout1"
+            android:layout_marginRight="16.0dp"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginTop="7.0dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Tipo Prevision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerTipoPre"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Prevision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerPre"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout1"
+            android:layout_marginRight="16.0dp"
+            android:layout_marginLeft="16.5dp"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginTop="7.0dp">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Tipo de sangre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerTipoSangre"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Factor Rh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerFactorRh"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="44.0dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Tipo Diabetes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView1"
+                    android:layout_marginRight="15.0dp"/>
+                <Spinner
+                    android:layout_width="140.0dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/SpinnerTipoDiabetes"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+        <TextView
+            android:text="Contraseña"
+            android:layout_marginHorizontal="20.5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <EditText
+            android:background="@drawable/editext"
+            android:layout_marginHorizontal="20.5dp"
+            android:inputType="textPassword"
+            android:hint="Ingrese contraseña a cambiar."
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="31.0dp"
+            android:id="@+id/txtPass" />
+
+        <TextView
+            android:text="Confirmar Contraseña"
+            android:layout_marginHorizontal="20.5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <EditText
+            android:background="@drawable/editext"
+            android:layout_marginHorizontal="20.5dp"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="31.0dp"
+            android:id="@+id/txtConfirmPass" />
+
+
+        <TextView
+            android:layout_marginHorizontal="20.5dp"
+            android:text="Correo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <EditText
+            android:background="@drawable/editext"
+            android:layout_marginHorizontal="20.5dp"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="31.0dp"
+            android:id="@+id/txtCorreo" />
+        <TextView
+            android:layout_marginHorizontal="20.5dp"
+            android:text="Confirmar correo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <EditText
+            android:background="@drawable/editext"
+            android:layout_marginHorizontal="20.5dp"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="31.0dp"
+            android:id="@+id/txtconfirmCorreo" />
+
+
+        <TextView
+            android:layout_marginHorizontal="20.5dp"
+            android:text="Fecha de Nacimiento"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <Button
+            android:layout_marginHorizontal="20.5dp"
+            android:hint="Seleccionar Fecha de nacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFecNac" />
+        <TextView
+            android:layout_marginHorizontal="20.5dp"
+            android:text="Enlazar y desenlazar FB"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8.0dp"
+            android:layout_marginBottom="15dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:gravity="center">
+
+            <Button
+                android:text="Modificar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnModificar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

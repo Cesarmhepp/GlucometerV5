@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+  <string name="ListaPrevisiones">Click Me</string>
+  <string name="ApplicationName">DDL</string>
+  
+  <string-array name="Dropdown_arraysPrevIsapre">
+    <item value="1">Banmédica S.A.</item>
+    <item value="2">Chuquicamata Ltda.</item>
+    <item value="3">Colmena</item>
+    <item value="4">Consalud S.A.</item>
+    <item value="5">Cruz Blanca S.A.</item>
+    <item value="6">Cruz del Norte Ltda.</item>
+    <item value="7">Nueva Masvida S.A.</item>
+    <item value="8">Fundación Ltda.</item>
+    <item value="9">Fusat Ltda.</item>
+    <item value="10">Río Blanco Ltda.</item>
+    <item value="11">San Lorenzo Ltda.</item>
+    <item value="12">Vida Tres S.A.</item>
+  </string-array>
+
+  <string-array name="Dropdown_arraysPrevFonasa">
+    <item value="1">A</item>
+    <item value="2">B</item>
+    <item value="3">C</item>
+    <item value="4">D</item>
+  </string-array>
+  
+  
+  
+</resources>

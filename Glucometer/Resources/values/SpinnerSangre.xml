@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string name="ListaPrevisiones">Click Me</string>
+  <string name="ApplicationName">DDL</string>
+
+  <string-array name="Dropdown_arraysTiposangre">
+    <item value="1">A</item>
+    <item value="2">B</item>
+    <item value="3">AB</item>
+    <item value="4">O</item>
+
+  </string-array>
+
+  <string-array name="Dropdown_arraysfactorRh">
+    <item value="1">Positivo+</item>
+    <item value="2">Negativo-</item>
+  </string-array>
+
+  <string-array name="Dropdown_arraystipoDiabetes">
+    <item value="1">1</item>
+    <item value="2">2</item>
+    <item value="2">3</item>
+  </string-array>
+
+
+
+</resources>

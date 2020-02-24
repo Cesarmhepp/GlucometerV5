@@ -1,0 +1,106 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boder"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="100.0dp"
+        android:layout_margin="10dp"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/linearLayout2">
+            <EditText
+                android:background="@drawable/editext"
+                android:hint="Fecha Inicial"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:id="@+id/txtFecha1"
+                android:editable="false"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10.0dp" />
+            <EditText
+                android:gravity="center_horizontal"
+                android:background="@drawable/editext"
+                android:hint="Fecha Final"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:id="@+id/txtFecha2"
+                android:editable="false"
+                android:layout_marginTop="22.0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3">
+
+            <Button
+                android:text="Filtrar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:id="@+id/button1"
+                android:layout_marginBottom="19.5dp" />
+            <Button
+                android:text="Eliminar fliltro"
+                android:layout_width="match_parent"
+                android:background="@drawable/button"
+                android:layout_height="40dp"
+                android:id="@+id/button2" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_margin="10dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/frameLayout1">
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/lista" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:src="@drawable/plus_circle" />
+
+
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>

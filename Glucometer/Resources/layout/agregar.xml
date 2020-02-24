@@ -1,0 +1,431 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boder" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2">
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tableLayout1">
+            <TextView
+                android:text="Fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView1"/>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Selecciónar fecha a ingresar"
+                    android:id="@+id/fecha"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="26.0dp"
+                    android:layout_width="314.0dp"
+                    android:layout_marginBottom="10.5dp"
+                    android:layout_marginTop="7.5dp" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tableLayout1">
+
+            <TextView
+                android:text="Nivel de glucosa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView1" />
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:text="Desayuno"
+                    p4:placeholder="true"
+                    android:id="@+id/textView2" />
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnDesayunoAntes"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:id="@+id/txt_des_antes"
+                />
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnDesayunoDespues"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:id="@+id/txt_des_Des"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:text="Almuerzo"
+                    p4:placeholder="true"
+                    android:id="@+id/textView8" />
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnAlmuerzoAntes"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:id="@+id/txt_alm_antes"
+                />
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnAlmuerzoDespues"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:id="@+id/txt_alm_des"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:text="Cena"
+                    p4:placeholder="true"
+                    android:id="@+id/textView8" />
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnAntesCena"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:id="@+id/Txt_cen_Antes"/>
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnDespuesCena"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:id="@+id/Txt_cen_Despues"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:gravity="center"
+                android:layout_marginBottom="10.0dp">
+                <TextView
+                    android:text="Dormir"
+                    p4:placeholder="true"
+                    android:id="@+id/textView8" />
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnDormirAntes"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:id="@+id/Txt_Dor_Antes"
+                />
+                <Button
+                    android:background="@drawable/button"
+                    android:text="Hora"
+                    android:id="@+id/btnDormirDespues"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_height="20.3dp"
+                    android:layout_width="50.7dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="mg/dl"
+                    android:gravity="center"
+                    android:id="@+id/Txt_Dor_Despues"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tableLayout1">
+
+            <TextView
+                android:text="Dosis de insulina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView1" />
+
+                        <TableRow
+                android:id="@+id/tableRow1"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:text=""
+                    p4:placeholder="true"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:text="Rapida"
+                    android:gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:text="Regular"
+                    android:gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:id="@+id/textView2" />
+                <TextView
+                    android:text="Mezcla"
+                    android:gravity="center_horizontal"
+                    android:textSize="17dp"
+                    android:id="@+id/textView2" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:text="Mañana"
+                    p4:placeholder="true"
+                    android:id="@+id/textView2" />
+
+                <EditText
+                    android:background="@drawable/editext"
+                    android:gravity="center"
+                    android:hint="Rápida"
+                    android:inputType="number"
+                    android:id="@+id/mnna_rap"
+                    android:layout_width="88.5dp" 
+                />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:hint="Regular"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:id="@+id/mnna_regul"
+                    android:layout_width="86.5dp" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:hint="Mezcla"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:id="@+id/mnna_mezcla"
+                    android:layout_width="78.5dp" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:text="Tarde"
+                    p4:placeholder="true"
+                    android:id="@+id/textView8" />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:id="@+id/tarde_rap"
+                    android:gravity="center"
+                    android:hint="Rapida"
+                />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:id="@+id/tarde_regul"
+                    android:gravity="center"
+                    android:hint="Regular"/>
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="Mezcla"
+                    android:gravity="center"
+                    android:id="@+id/tarde_mezcla"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:text="Noche"
+                    p4:placeholder="true"
+                    android:id="@+id/ddd" />
+
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="Rápida"
+                    android:gravity="center"
+                    android:id="@+id/noche_rap"
+                />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="Regular"
+                    android:gravity="center"
+                    android:id="@+id/noche_regul"/>
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="Mezcla"
+                    android:gravity="center"
+                    android:id="@+id/noche_mezcla"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:gravity="center"
+                android:layout_marginBottom="10.0dp">
+                <TextView
+                    android:text="Dormir"
+                    p4:placeholder="true"
+                    android:id="@+id/textView8" />
+
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="Rápida"
+                    android:gravity="center"
+                    android:id="@+id/dormir_rap"
+                />
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="Regular"
+                    android:gravity="center"
+                    android:id="@+id/dormir_regul"/>
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="number"
+                    android:hint="Mezcla"
+                    android:gravity="center"
+                    android:id="@+id/dormir_mezcla"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:background="@drawable/boder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tableLayout1">
+
+            <TextView
+                android:text="Observaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView1" />
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:gravity="center"
+                android:layout_marginBottom="5dp">
+                <EditText
+                    android:background="@drawable/editext"
+                    android:inputType="textMultiLine"
+                    android:textAlignment="center"
+                    android:id="@+id/txt_obs"
+                    android:layout_width="307.5dp"
+                    android:layout_height="118.5dp"
+                    android:layout_marginBottom="14.0dp"
+                    android:layout_marginTop="7.5dp" 
+                />
+            </TableRow>
+        </TableLayout>
+
+
+
+
+        <Button
+            android:text="Agregar Datos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100.0dp"
+            android:id="@+id/button1"
+            android:layout_marginTop="16.0dp"
+            android:layout_marginBottom="20.5dp" />
+
+    </LinearLayout>
+</ScrollView>

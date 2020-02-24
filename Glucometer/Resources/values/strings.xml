@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Glucometer</string>
+  <string name="app_name_config">Configuraciones</string>
+  <string name="app_name_repor">Reportes</string>
+  <string name="app_name_add">Añadir</string>
+    <string name="title_home">Home</string>
+    <string name="title_report">Reportes</string>
+    <string name="title_config">Config</string>
+  <string name="facebook_app_id">444917649791842</string>
+  <string name="fb_login_protocol_scheme">fb444917649791842</string>
+
+
+
+</resources>

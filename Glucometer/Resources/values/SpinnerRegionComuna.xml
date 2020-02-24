@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string name="ListaPrevisiones">Click Me</string>
+  <string name="ApplicationName">DDL</string>
+
+  <string-array name="Dropdown_arraysRegion">
+    <item value="1">Región Metropolitana de Santiago</item>
+    <item value="2">Región de Valparaíso.</item>
+
+  </string-array>
+
+  <string-array name="Dropdown_arraysCiudadesMetropo">
+    <item value="1">Chacabuco</item>
+    <item value="2">Maipo</item>
+    <item value="3">Melipilla</item>
+    <item value="4">Santiago</item>
+    <item value="4">Talagante</item>
+  </string-array>
+
+
+  
+  <string-array name="Dropdown_arraysComunasSantiago">
+    <item value="1">Santiago</item>
+    <item value="2">Conchali</item>
+    <item value="3">Huechuraba</item>
+    <item value="4">Independencia</item>
+    <item value="5">Quilicura</item>
+    <item value="6">Recoleta</item>
+    <item value="7">Renca</item>
+    <item value="8">Las Condes</item>
+    <item value="9">Lo Barnechea</item>
+    <item value="10">Providencia</item>
+    <item value="11">Vitacura</item>
+    <item value="12">La Reina</item>
+    <item value="13">Macul</item>
+    <item value="14">Ñuñoa</item>
+    <item value="15">Peñalolén</item>
+    <item value="16">La Florida</item>
+    <item value="17">La Granja</item>
+    <item value="18">El Bosque</item>
+    <item value="19">La Cisterna</item>
+    <item value="20">La Pintana</item>
+    <item value="21">San Ramón</item>
+    <item value="22">Lo Espejo</item>
+    <item value="23">Pedro Aguirre Cerda</item>
+    <item value="24">San Joaquín</item>
+    <item value="25">San Miguel</item>
+    <item value="26">Cerrillos</item>
+    <item value="27">Estacion Central</item>
+    <item value="28">Maipú</item>
+    <item value="29">Cerro Navia</item>
+    <item value="30">Puente Alto</item>
+    <item value="31">Pudahuel</item>
+    <item value="32">Quinta Normal</item>
+  </string-array>
+
+
+
+</resources>
